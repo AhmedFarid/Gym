@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Side MnueVC-->
+        <scene sceneID="blk-h9-QlN">
+            <objects>
+                <viewController id="Zxy-wa-Dqi" customClass="sideMnueVC" customModule="Dabberha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VUM-tl-IDe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo gold" translatesAutoresizingMaskIntoConstraints="NO" id="45S-8h-8fe">
+                                <rect key="frame" x="123" y="96" width="168" height="138"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sxo-Sj-iw3">
+                                <rect key="frame" x="32" y="266" width="366" height="566"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bf-3r-yJU">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    Home" image="home-1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="bd6-es-vW9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5A-CQ-hOY">
+                                        <rect key="frame" x="0.0" y="44" width="175" height="36.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="   Cart" image="basket-1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cartBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="QyM-l3-HlD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNS-et-dyQ">
+                                        <rect key="frame" x="0.0" y="88.5" width="126.5" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="   My Wishlist" image="favorite-heart-button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="favBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="rg6-lh-ZTJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulg-qA-LWl">
+                                        <rect key="frame" x="0.0" y="132.5" width="86.5" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    Profile" image="Group 246">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="profileTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="y4R-jl-5dw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJO-9W-enK">
+                                        <rect key="frame" x="0.0" y="176.5" width="119" height="36.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    My Orders" image="Group 255">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="myOrder:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="BGM-Ar-wAf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruj-HA-vE6">
+                                        <rect key="frame" x="0.0" y="221" width="117" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    Shop now" image="home-2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="shopNowBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="v29-vd-6NW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYd-e0-rwf">
+                                        <rect key="frame" x="0.0" y="265" width="136" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    All Products " image="home">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="allProductBTn:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="fGd-18-wzo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12c-C5-yyl">
+                                        <rect key="frame" x="0.0" y="309" width="123.5" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="   New Offers" image="discount">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newOffer:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="S3a-QV-J7q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXh-OJ-MEU">
+                                        <rect key="frame" x="0.0" y="353" width="79.5" height="36.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="   Blogs" image="blog">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Bloges:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="Wj0-7D-KLl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNW-bz-Pmj">
+                                        <rect key="frame" x="0.0" y="397.5" width="107" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="     About us" image="edit white">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="aboutUsBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="mWH-U7-bqY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlN-pS-bRp">
+                                        <rect key="frame" x="0.0" y="441.5" width="127" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="    Contact us " image="old-typical-phone">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="contactUsBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="nVO-ZQ-9Oa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-uk-8hg">
+                                        <rect key="frame" x="0.0" y="485.5" width="215" height="36.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="   Language And Country" image="002---Global-Language">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="langAndCountryBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="156-4u-i87"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qD6-za-VFg">
+                                        <rect key="frame" x="0.0" y="530" width="91" height="36"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <state key="normal" title="   Logout" image="logout">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="logoutBTN:" destination="Zxy-wa-Dqi" eventType="touchUpInside" id="NZP-cc-NeK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="45S-8h-8fe" firstAttribute="top" secondItem="cJX-Zt-UPV" secondAttribute="top" constant="8" id="F4v-Mg-f6t"/>
+                            <constraint firstItem="cJX-Zt-UPV" firstAttribute="trailing" secondItem="Sxo-Sj-iw3" secondAttribute="trailing" constant="16" id="Qmp-aQ-Uf8"/>
+                            <constraint firstAttribute="bottom" secondItem="Sxo-Sj-iw3" secondAttribute="bottom" constant="64" id="cga-fP-GY6"/>
+                            <constraint firstItem="45S-8h-8fe" firstAttribute="width" secondItem="VUM-tl-IDe" secondAttribute="width" multiplier="0.405797" id="jRs-b9-Dfn"/>
+                            <constraint firstItem="Sxo-Sj-iw3" firstAttribute="top" secondItem="45S-8h-8fe" secondAttribute="bottom" constant="32" id="mad-Qe-gLn"/>
+                            <constraint firstItem="Sxo-Sj-iw3" firstAttribute="leading" secondItem="cJX-Zt-UPV" secondAttribute="leading" constant="32" id="w4K-Gh-M5I"/>
+                            <constraint firstItem="45S-8h-8fe" firstAttribute="height" secondItem="VUM-tl-IDe" secondAttribute="height" multiplier="0.154018" id="x2Z-0Q-I6D"/>
+                            <constraint firstItem="45S-8h-8fe" firstAttribute="centerX" secondItem="VUM-tl-IDe" secondAttribute="centerX" id="xri-G5-sB2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cJX-Zt-UPV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bv4-4d-xIK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3va-HN-AEH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5652173913045" y="154.6875"/>
+        </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="d6U-6N-D79">
+            <objects>
+                <navigationController storyboardIdentifier="RightMenu" automaticallyAdjustsScrollViewInsets="NO" id="ADJ-ue-9cL" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gp7-FM-TJS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="Zxy-wa-Dqi" kind="relationship" relationship="rootViewController" id="qzD-dI-XE5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdG-fy-6nZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.86956521739131" y="160.71428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="002---Global-Language" width="25" height="25"/>
+        <image name="Group 246" width="19.5" height="19.5"/>
+        <image name="Group 255" width="20" height="22"/>
+        <image name="basket-1" width="128" height="128"/>
+        <image name="blog" width="21.5" height="21.5"/>
+        <image name="discount" width="23.5" height="23.5"/>
+        <image name="edit white" width="15" height="19"/>
+        <image name="favorite-heart-button" width="24.5" height="22.5"/>
+        <image name="home" width="20" height="20"/>
+        <image name="home-1" width="20" height="16"/>
+        <image name="home-2" width="20" height="22"/>
+        <image name="logo gold" width="236" height="190"/>
+        <image name="logout" width="23" height="23"/>
+        <image name="old-typical-phone" width="20" height="19"/>
+    </resources>
+</document>

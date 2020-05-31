@@ -1,0 +1,33 @@
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "8JV-gS-ROP"; */
+"8JV-gS-ROP.normalTitle" = "اطلب الان";
+
+/* Class = "UILabel"; text = "Total Cart"; ObjectID = "B3o-Y6-tlG"; */
+"B3o-Y6-tlG.text" = "إجمالي السلة";
+
+/* Class = "UILabel"; text = "Product"; ObjectID = "efn-X7-LOt"; */
+"efn-X7-LOt.text" = "المنتج";
+
+/* Class = "UILabel"; text = "Total Bill"; ObjectID = "j0h-r6-XIX"; */
+"j0h-r6-XIX.text" = "إجمالي الفاتورة";
+
+/* Class = "UILabel"; text = "Area"; ObjectID = "JK8-OA-2Ji"; */
+"JK8-OA-2Ji.text" = "منطقة";
+
+/* Class = "UILabel"; text = "Number Of Proudct"; ObjectID = "p8a-LG-lGO"; */
+"p8a-LG-lGO.text" = "رقم المنتج";
+
+/* Class = "UITextField"; placeholder = "Area"; ObjectID = "sfp-So-9K7"; */
+"sfp-So-9K7.placeholder" = "منطقة";
+
+/* Class = "UILabel"; text = "Shipping Services"; ObjectID = "ub5-4L-gcc"; */
+"ub5-4L-gcc.text" = "خدمات الشحن";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "w9z-v6-UZo"; */
+"w9z-v6-UZo.placeholder" = "مدينة";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "xdu-7Q-wjt"; */
+"xdu-7Q-wjt.text" = "مجموع";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "XIO-pV-IBe"; */
+"XIO-pV-IBe.text" = "مدينة";
+

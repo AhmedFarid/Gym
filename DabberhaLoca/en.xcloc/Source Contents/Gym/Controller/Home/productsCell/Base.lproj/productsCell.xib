@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="productsCell" customModule="Gym" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="268" height="295"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="268" height="295"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fG-2x-nsy" customClass="coustomRoundedView" customModule="Gym" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="252" height="279"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l8p-eY-Bgp">
+                                <rect key="frame" x="35.5" y="0.0" width="181" height="163"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-wA-Csn">
+                                <rect key="frame" x="8" y="163" width="236" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yv-8J-9MY">
+                                <rect key="frame" x="8" y="178.5" width="236" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWx-uQ-IGS">
+                                <rect key="frame" x="209" y="8" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cCj-iC-bt1"/>
+                                    <constraint firstAttribute="width" constant="35" id="ud7-1Y-pS8"/>
+                                </constraints>
+                                <state key="normal" image="Group 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuY-nl-hJD">
+                                <rect key="frame" x="209" y="198" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="C93-Ke-vy9"/>
+                                    <constraint firstAttribute="width" constant="35" id="vmx-my-Tfq"/>
+                                </constraints>
+                                <state key="normal" image="Group 238"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8vA-rb-1vU" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="8" y="209" width="120" height="13"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="filledImage" value="star"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star1"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7yv-8J-9MY" firstAttribute="trailing" secondItem="hcO-wA-Csn" secondAttribute="trailing" id="537-ie-JP6"/>
+                            <constraint firstItem="zuY-nl-hJD" firstAttribute="top" secondItem="7yv-8J-9MY" secondAttribute="bottom" constant="4" id="6dk-AD-wrC"/>
+                            <constraint firstItem="l8p-eY-Bgp" firstAttribute="centerX" secondItem="3fG-2x-nsy" secondAttribute="centerX" id="DBm-3J-WH1"/>
+                            <constraint firstItem="l8p-eY-Bgp" firstAttribute="height" secondItem="3fG-2x-nsy" secondAttribute="height" multiplier="0.584229" id="GPt-JD-7WA"/>
+                            <constraint firstItem="8vA-rb-1vU" firstAttribute="centerY" secondItem="zuY-nl-hJD" secondAttribute="centerY" id="HFo-fh-TFS"/>
+                            <constraint firstItem="hcO-wA-Csn" firstAttribute="top" secondItem="l8p-eY-Bgp" secondAttribute="bottom" id="Ntj-B9-ZVK"/>
+                            <constraint firstItem="l8p-eY-Bgp" firstAttribute="top" secondItem="3fG-2x-nsy" secondAttribute="top" id="Okk-yl-3tC"/>
+                            <constraint firstItem="7yv-8J-9MY" firstAttribute="leading" secondItem="hcO-wA-Csn" secondAttribute="leading" id="R9B-G3-vvc"/>
+                            <constraint firstAttribute="trailing" secondItem="zuY-nl-hJD" secondAttribute="trailing" constant="8" id="RQx-NT-175"/>
+                            <constraint firstItem="8vA-rb-1vU" firstAttribute="leading" secondItem="3fG-2x-nsy" secondAttribute="leading" constant="8" id="Z8q-dO-a4c"/>
+                            <constraint firstItem="zuY-nl-hJD" firstAttribute="leading" secondItem="8vA-rb-1vU" secondAttribute="trailing" constant="81" id="bdI-Yq-uKm"/>
+                            <constraint firstAttribute="trailing" secondItem="JWx-uQ-IGS" secondAttribute="trailing" constant="8" id="clz-ry-MYQ"/>
+                            <constraint firstItem="l8p-eY-Bgp" firstAttribute="width" secondItem="3fG-2x-nsy" secondAttribute="width" multiplier="0.717172" id="cp6-lh-PJe"/>
+                            <constraint firstItem="hcO-wA-Csn" firstAttribute="leading" secondItem="3fG-2x-nsy" secondAttribute="leading" constant="8" id="elR-d5-2tW"/>
+                            <constraint firstAttribute="trailing" secondItem="hcO-wA-Csn" secondAttribute="trailing" constant="8" id="giL-fD-qJb"/>
+                            <constraint firstItem="7yv-8J-9MY" firstAttribute="top" secondItem="hcO-wA-Csn" secondAttribute="bottom" id="qFV-2u-dAJ"/>
+                            <constraint firstItem="JWx-uQ-IGS" firstAttribute="top" secondItem="3fG-2x-nsy" secondAttribute="top" constant="8" id="sM9-8b-3hi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuscostom">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="0.41527288732394368" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="-1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3fG-2x-nsy" secondAttribute="trailing" constant="8" id="4kt-lS-fe4"/>
+                <constraint firstAttribute="bottom" secondItem="3fG-2x-nsy" secondAttribute="bottom" constant="8" id="Ke1-vH-VUd"/>
+                <constraint firstItem="3fG-2x-nsy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="OtL-Ej-Ytb"/>
+                <constraint firstItem="3fG-2x-nsy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Whp-NK-uWY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="268" height="295"/>
+            <connections>
+                <outlet property="CartBTN" destination="zuY-nl-hJD" id="RFT-e8-VrF"/>
+                <outlet property="favBTN" destination="JWx-uQ-IGS" id="UQ7-MH-myk"/>
+                <outlet property="imageProduct" destination="l8p-eY-Bgp" id="bgb-8Z-kHr"/>
+                <outlet property="nameTF" destination="hcO-wA-Csn" id="aes-7F-oDI"/>
+                <outlet property="priceTF" destination="7yv-8J-9MY" id="xLZ-Kr-GJO"/>
+                <outlet property="rate" destination="8vA-rb-1vU" id="bTU-DA-1Rs"/>
+            </connections>
+            <point key="canvasLocation" x="289.85507246376812" y="235.37946428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Group 2" width="42.5" height="42.5"/>
+        <image name="Group 238" width="42" height="42"/>
+        <image name="star" width="12.5" height="12.5"/>
+        <image name="star1" width="12.5" height="12.5"/>
+    </resources>
+</document>

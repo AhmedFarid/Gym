@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="userOrderDitelsVC" customModule="Dabberha" customModuleProvider="target">
+            <connections>
+                <outlet property="orderCode" destination="V65-IB-mhN" id="IbC-Al-rWe"/>
+                <outlet property="orderID" destination="Igd-62-jAy" id="09m-5g-03A"/>
+                <outlet property="orderStatus" destination="akA-wH-P1l" id="CIr-LU-TOW"/>
+                <outlet property="prdouctTableView" destination="Z9h-qe-D7Y" id="TMs-By-omd"/>
+                <outlet property="shoppingPrice" destination="hcz-bC-O4r" id="gcu-Gf-1pD"/>
+                <outlet property="totalPrice" destination="pJa-vs-xxW" id="DYr-m2-Za0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXt-iB-KHa" customClass="coustomRoundedView" customModule="Dabberha" customModuleProvider="target">
+                    <rect key="frame" x="8" y="52" width="398" height="802"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYM-df-Ixl" customClass="coustomRoundedView" customModule="Dabberha" customModuleProvider="target">
+                            <rect key="frame" x="8" y="16" width="382" height="120"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qS5-FA-aXV">
+                                    <rect key="frame" x="8" y="8" width="366" height="22.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Id" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igd-62-jAy">
+                                            <rect key="frame" x="0.0" y="0.0" width="179" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Code" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V65-IB-mhN">
+                                            <rect key="frame" x="187" y="0.0" width="179" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bzw-Pu-JLo">
+                                    <rect key="frame" x="8" y="38.5" width="366" height="22.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Price" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-bC-O4r">
+                                            <rect key="frame" x="0.0" y="0.0" width="179" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJa-vs-xxW">
+                                            <rect key="frame" x="187" y="0.0" width="179" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Status" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akA-wH-P1l">
+                                    <rect key="frame" x="8" y="69" width="366" height="43"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="Bzw-Pu-JLo" firstAttribute="leading" secondItem="mYM-df-Ixl" secondAttribute="leading" constant="8" id="4Vf-uI-X0n"/>
+                                <constraint firstAttribute="height" constant="120" id="BNJ-Fg-rZi"/>
+                                <constraint firstItem="Bzw-Pu-JLo" firstAttribute="top" secondItem="qS5-FA-aXV" secondAttribute="bottom" constant="8" id="Gn4-cQ-7SF"/>
+                                <constraint firstAttribute="bottom" secondItem="akA-wH-P1l" secondAttribute="bottom" constant="8" id="INa-vM-UMQ"/>
+                                <constraint firstItem="akA-wH-P1l" firstAttribute="top" secondItem="Bzw-Pu-JLo" secondAttribute="bottom" constant="8" id="Ul0-Ux-OWP"/>
+                                <constraint firstAttribute="trailing" secondItem="akA-wH-P1l" secondAttribute="trailing" constant="8" id="Zke-kX-m6G"/>
+                                <constraint firstAttribute="trailing" secondItem="Bzw-Pu-JLo" secondAttribute="trailing" constant="8" id="fTD-2R-KQb"/>
+                                <constraint firstItem="qS5-FA-aXV" firstAttribute="leading" secondItem="mYM-df-Ixl" secondAttribute="leading" constant="8" id="iI0-6M-tPs"/>
+                                <constraint firstItem="qS5-FA-aXV" firstAttribute="top" secondItem="mYM-df-Ixl" secondAttribute="top" constant="8" id="k4d-vq-lTv"/>
+                                <constraint firstItem="akA-wH-P1l" firstAttribute="leading" secondItem="mYM-df-Ixl" secondAttribute="leading" constant="8" id="kf4-ig-tjO"/>
+                                <constraint firstAttribute="trailing" secondItem="qS5-FA-aXV" secondAttribute="trailing" constant="8" id="zTe-oQ-6Cg"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuscostom">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                    <color key="value" white="0.0" alpha="0.2180347711" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                    <size key="value" width="-1" height="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6D-Eb-nPc">
+                            <rect key="frame" x="8" y="144" width="382" height="34"/>
+                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z9h-qe-D7Y">
+                            <rect key="frame" x="0.0" y="186" width="398" height="608"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="akA-wH-P1l" firstAttribute="top" secondItem="Bzw-Pu-JLo" secondAttribute="bottom" constant="8" id="3Sn-nc-AM2"/>
+                        <constraint firstAttribute="trailing" secondItem="mYM-df-Ixl" secondAttribute="trailing" constant="8" id="3bu-EP-M6U"/>
+                        <constraint firstAttribute="trailing" secondItem="Z9h-qe-D7Y" secondAttribute="trailing" id="A2M-8D-hMc"/>
+                        <constraint firstItem="Z9h-qe-D7Y" firstAttribute="leading" secondItem="rXt-iB-KHa" secondAttribute="leading" id="Ccp-qb-31s"/>
+                        <constraint firstItem="Z9h-qe-D7Y" firstAttribute="top" secondItem="s6D-Eb-nPc" secondAttribute="bottom" constant="8" id="EJI-IP-pUC"/>
+                        <constraint firstItem="mYM-df-Ixl" firstAttribute="top" secondItem="rXt-iB-KHa" secondAttribute="top" constant="16" id="JES-hy-udn"/>
+                        <constraint firstAttribute="trailing" secondItem="akA-wH-P1l" secondAttribute="trailing" constant="16" id="NOj-kW-uti"/>
+                        <constraint firstAttribute="bottom" secondItem="Z9h-qe-D7Y" secondAttribute="bottom" constant="8" id="aOz-Dr-dXL"/>
+                        <constraint firstItem="s6D-Eb-nPc" firstAttribute="top" secondItem="mYM-df-Ixl" secondAttribute="bottom" constant="8" id="dJh-7i-PWK"/>
+                        <constraint firstItem="mYM-df-Ixl" firstAttribute="leading" secondItem="rXt-iB-KHa" secondAttribute="leading" constant="8" id="eIA-sU-1fP"/>
+                        <constraint firstAttribute="trailing" secondItem="s6D-Eb-nPc" secondAttribute="trailing" constant="8" id="gOC-8V-DVX"/>
+                        <constraint firstItem="akA-wH-P1l" firstAttribute="leading" secondItem="rXt-iB-KHa" secondAttribute="leading" constant="16" id="gqc-jb-SsE"/>
+                        <constraint firstItem="s6D-Eb-nPc" firstAttribute="leading" secondItem="rXt-iB-KHa" secondAttribute="leading" constant="8" id="u1d-bU-ObZ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuscostom">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="0.2180347711" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="-1" height="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="rXt-iB-KHa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="YVR-Li-Lmr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rXt-iB-KHa" secondAttribute="trailing" constant="8" id="ZaY-gR-4O2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rXt-iB-KHa" secondAttribute="bottom" constant="8" id="b2x-vC-rAX"/>
+                <constraint firstItem="rXt-iB-KHa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="kDR-ha-LeE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
+        </view>
+    </objects>
+</document>

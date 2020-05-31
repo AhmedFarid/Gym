@@ -1,0 +1,33 @@
+/* Class = "UILabel"; text = "Cart"; ObjectID = "8lv-ko-tLe"; */
+"8lv-ko-tLe.text" = "عربة التسوق";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "b1u-1a-1Ea"; */
+"b1u-1a-1Ea.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bj4-ph-w1j"; */
+"Bj4-ph-w1j.text" = "Label";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "DUd-0f-baE"; */
+"DUd-0f-baE.text" = "كمية";
+
+/* Class = "UIButton"; normalTitle = "Reviews"; ObjectID = "fz9-6o-hdc"; */
+"fz9-6o-hdc.normalTitle" = "المراجعات";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "Mmy-xb-C9m"; */
+"Mmy-xb-C9m.normalTitle" = "مزيد من المعلومات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NAM-h3-NHu"; */
+"NAM-h3-NHu.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Add Cart"; ObjectID = "qNM-7k-4GL"; */
+"qNM-7k-4GL.normalTitle" = "إضافة إلى عربة التسوق";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rTo-Iw-WKC"; */
+"rTo-Iw-WKC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "T0K-0Q-1vE"; */
+"T0K-0Q-1vE.text" = "Label";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "Ycs-lm-76l"; */
+"Ycs-lm-76l.text" = "1";
+

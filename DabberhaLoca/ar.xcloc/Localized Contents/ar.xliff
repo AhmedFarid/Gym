@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Gym/Controller/AboutUs/Base.lproj/aboutUsVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="EiD-vF-eiu.text" xml:space="preserve">
+        <source>Reviews</source>
+        <target>المراجعات</target>
+        <note>Class = "UILabel"; text = "Reviews"; ObjectID = "EiD-vF-eiu";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Auth/Login/Base.lproj/loginVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="5HB-L5-jMh.placeholder" xml:space="preserve">
+        <source>Password</source>
+        <target>كلمه السر</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "5HB-L5-jMh";</note>
+      </trans-unit>
+      <trans-unit id="Dbx-Oy-Rcv.placeholder" xml:space="preserve">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+        <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "Dbx-Oy-Rcv";</note>
+      </trans-unit>
+      <trans-unit id="GVS-QD-pZb.text" xml:space="preserve">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+        <note>Class = "UILabel"; text = "Email"; ObjectID = "GVS-QD-pZb";</note>
+      </trans-unit>
+      <trans-unit id="PWo-nN-5il.text" xml:space="preserve">
+        <source>Password</source>
+        <target>كلمه السر</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "PWo-nN-5il";</note>
+      </trans-unit>
+      <trans-unit id="PvW-AK-YUb.text" xml:space="preserve">
+        <source>Login</source>
+        <target>تسجيل الدخول</target>
+        <note>Class = "UILabel"; text = "Login"; ObjectID = "PvW-AK-YUb";</note>
+      </trans-unit>
+      <trans-unit id="cEI-JJ-tlQ.normalTitle" xml:space="preserve">
+        <source>Don’t have an account? SIGN UP</source>
+        <target>ليس لديك حساب؟ سجل</target>
+        <note>Class = "UIButton"; normalTitle = "Don’t have an account? SIGN UP"; ObjectID = "cEI-JJ-tlQ";</note>
+      </trans-unit>
+      <trans-unit id="f0X-uG-6yR.normalTitle" xml:space="preserve">
+        <source>LOGIN</source>
+        <target>تسجيل الدخول</target>
+        <note>Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "f0X-uG-6yR";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Auth/SignUp/Base.lproj/signUpVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="4BT-aL-ED3.placeholder" xml:space="preserve">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+        <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "4BT-aL-ED3";</note>
+      </trans-unit>
+      <trans-unit id="9qw-ip-i84.placeholder" xml:space="preserve">
+        <source>Password</source>
+        <target>كلمه السر</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "9qw-ip-i84";</note>
+      </trans-unit>
+      <trans-unit id="Bnt-S0-lsh.placeholder" xml:space="preserve">
+        <source>phone</source>
+        <target>هاتف</target>
+        <note>Class = "UITextField"; placeholder = "phone"; ObjectID = "Bnt-S0-lsh";</note>
+      </trans-unit>
+      <trans-unit id="COM-yg-LLh.text" xml:space="preserve">
+        <source>phone</source>
+        <target>هاتف</target>
+        <note>Class = "UILabel"; text = "phone"; ObjectID = "COM-yg-LLh";</note>
+      </trans-unit>
+      <trans-unit id="CaC-o5-x3X.normalTitle" xml:space="preserve">
+        <source>SIGN UP</source>
+        <target>سجل</target>
+        <note>Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "CaC-o5-x3X";</note>
+      </trans-unit>
+      <trans-unit id="K6r-dH-ogi.text" xml:space="preserve">
+        <source>Full Name</source>
+        <target>الاسم الكامل</target>
+        <note>Class = "UILabel"; text = "Full Name"; ObjectID = "K6r-dH-ogi";</note>
+      </trans-unit>
+      <trans-unit id="LLh-CG-k8q.text" xml:space="preserve">
+        <source>SIGN UP</source>
+        <target>سجل</target>
+        <note>Class = "UILabel"; text = "SIGN UP"; ObjectID = "LLh-CG-k8q";</note>
+      </trans-unit>
+      <trans-unit id="NL5-9M-8ks.placeholder" xml:space="preserve">
+        <source>Full Name</source>
+        <target>الاسم الكامل</target>
+        <note>Class = "UITextField"; placeholder = "Full Name"; ObjectID = "NL5-9M-8ks";</note>
+      </trans-unit>
+      <trans-unit id="jHp-LL-G5O.placeholder" xml:space="preserve">
+        <source>Address</source>
+        <target>عنوان</target>
+        <note>Class = "UITextField"; placeholder = "Address"; ObjectID = "jHp-LL-G5O";</note>
+      </trans-unit>
+      <trans-unit id="ngS-j2-3rb.text" xml:space="preserve">
+        <source>Confirm password</source>
+        <target>تأكيد كلمة المرور</target>
+        <note>Class = "UILabel"; text = "Confirm password"; ObjectID = "ngS-j2-3rb";</note>
+      </trans-unit>
+      <trans-unit id="rOf-pH-GuQ.text" xml:space="preserve">
+        <source>Password</source>
+        <target>كلمه السر</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "rOf-pH-GuQ";</note>
+      </trans-unit>
+      <trans-unit id="uzi-Fj-TAd.text" xml:space="preserve">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+        <note>Class = "UILabel"; text = "Email"; ObjectID = "uzi-Fj-TAd";</note>
+      </trans-unit>
+      <trans-unit id="veM-aH-OOb.text" xml:space="preserve">
+        <source>Address</source>
+        <target>عنوان</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "veM-aH-OOb";</note>
+      </trans-unit>
+      <trans-unit id="ygo-Xy-hBm.placeholder" xml:space="preserve">
+        <source>Confirm password</source>
+        <target>تأكيد كلمة المرور</target>
+        <note>Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "ygo-Xy-hBm";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/BlogsDetels/Base.lproj/blogsDetialsVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="KkC-fX-Co6.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "KkC-fX-Co6";</note>
+      </trans-unit>
+      <trans-unit id="V2Y-g3-UiJ.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "V2Y-g3-UiJ";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Cart/Base.lproj/cartVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="c8u-eo-n5s.text" xml:space="preserve">
+        <source>TOTAL</source>
+        <target>مجموع</target>
+        <note>Class = "UILabel"; text = "TOTAL"; ObjectID = "c8u-eo-n5s";</note>
+      </trans-unit>
+      <trans-unit id="sdi-eI-RRv.normalTitle" xml:space="preserve">
+        <source>CHECK OUT</source>
+        <target>الدفع</target>
+        <note>Class = "UIButton"; normalTitle = "CHECK OUT"; ObjectID = "sdi-eI-RRv";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Cart/CartCell/Base.lproj/cartCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="RGq-Xh-cmr.text" xml:space="preserve">
+        <source>1</source>
+        <target>1</target>
+        <note>Class = "UILabel"; text = "1"; ObjectID = "RGq-Xh-cmr";</note>
+      </trans-unit>
+      <trans-unit id="WhT-aa-ev9.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "WhT-aa-ev9";</note>
+      </trans-unit>
+      <trans-unit id="aDT-dN-MHV.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "aDT-dN-MHV";</note>
+      </trans-unit>
+      <trans-unit id="aKW-Mr-IZR.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "aKW-Mr-IZR";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/CheckOut/Base.lproj/checkOutVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="8JV-gS-ROP.normalTitle" xml:space="preserve">
+        <source>Order Now</source>
+        <target>اطلب الان</target>
+        <note>Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "8JV-gS-ROP";</note>
+      </trans-unit>
+      <trans-unit id="B3o-Y6-tlG.text" xml:space="preserve">
+        <source>Total Cart</source>
+        <target>إجمالي السلة</target>
+        <note>Class = "UILabel"; text = "Total Cart"; ObjectID = "B3o-Y6-tlG";</note>
+      </trans-unit>
+      <trans-unit id="JK8-OA-2Ji.text" xml:space="preserve">
+        <source>Area</source>
+        <target>منطقة</target>
+        <note>Class = "UILabel"; text = "Area"; ObjectID = "JK8-OA-2Ji";</note>
+      </trans-unit>
+      <trans-unit id="XIO-pV-IBe.text" xml:space="preserve">
+        <source>City</source>
+        <target>مدينة</target>
+        <note>Class = "UILabel"; text = "City"; ObjectID = "XIO-pV-IBe";</note>
+      </trans-unit>
+      <trans-unit id="efn-X7-LOt.text" xml:space="preserve">
+        <source>Product</source>
+        <target>المنتج</target>
+        <note>Class = "UILabel"; text = "Product"; ObjectID = "efn-X7-LOt";</note>
+      </trans-unit>
+      <trans-unit id="j0h-r6-XIX.text" xml:space="preserve">
+        <source>Total Bill</source>
+        <target>إجمالي الفاتورة</target>
+        <note>Class = "UILabel"; text = "Total Bill"; ObjectID = "j0h-r6-XIX";</note>
+      </trans-unit>
+      <trans-unit id="p8a-LG-lGO.text" xml:space="preserve">
+        <source>Number Of Proudct</source>
+        <target>رقم المنتج</target>
+        <note>Class = "UILabel"; text = "Number Of Proudct"; ObjectID = "p8a-LG-lGO";</note>
+      </trans-unit>
+      <trans-unit id="sfp-So-9K7.placeholder" xml:space="preserve">
+        <source>Area</source>
+        <target>منطقة</target>
+        <note>Class = "UITextField"; placeholder = "Area"; ObjectID = "sfp-So-9K7";</note>
+      </trans-unit>
+      <trans-unit id="ub5-4L-gcc.text" xml:space="preserve">
+        <source>Shipping Services</source>
+        <target>خدمات الشحن</target>
+        <note>Class = "UILabel"; text = "Shipping Services"; ObjectID = "ub5-4L-gcc";</note>
+      </trans-unit>
+      <trans-unit id="w9z-v6-UZo.placeholder" xml:space="preserve">
+        <source>City</source>
+        <target>مدينة</target>
+        <note>Class = "UITextField"; placeholder = "City"; ObjectID = "w9z-v6-UZo";</note>
+      </trans-unit>
+      <trans-unit id="xdu-7Q-wjt.text" xml:space="preserve">
+        <source>Total</source>
+        <target>مجموع</target>
+        <note>Class = "UILabel"; text = "Total"; ObjectID = "xdu-7Q-wjt";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Home/Base.lproj/homeVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="4HB-HJ-5qK.text" xml:space="preserve">
+        <source>BEST SELLING</source>
+        <target>أفضل مبيعات</target>
+        <note>Class = "UILabel"; text = "BEST SELLING"; ObjectID = "4HB-HJ-5qK";</note>
+      </trans-unit>
+      <trans-unit id="7DC-rH-5y7.text" xml:space="preserve">
+        <source>DEALS OF THE DAY</source>
+        <target>صفقات اليوم</target>
+        <note>Class = "UILabel"; text = "DEALS OF THE DAY"; ObjectID = "7DC-rH-5y7";</note>
+      </trans-unit>
+      <trans-unit id="Mta-5l-PUp.text" xml:space="preserve">
+        <source>From Our Blog</source>
+        <target>من مدونتنا</target>
+        <note>Class = "UILabel"; text = "From Our Blog"; ObjectID = "Mta-5l-PUp";</note>
+      </trans-unit>
+      <trans-unit id="On8-Ti-bUI.text" xml:space="preserve">
+        <source>FEATURED</source>
+        <target>متميز</target>
+        <note>Class = "UILabel"; text = "FEATURED"; ObjectID = "On8-Ti-bUI";</note>
+      </trans-unit>
+      <trans-unit id="Zvg-fQ-n6J.text" xml:space="preserve">
+        <source>NEW ARRIVALS</source>
+        <target>الوافدون الجدد</target>
+        <note>Class = "UILabel"; text = "NEW ARRIVALS"; ObjectID = "Zvg-fQ-n6J";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Home/blogsCell/Base.lproj/blogsCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="Rik-er-UWS.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Rik-er-UWS";</note>
+      </trans-unit>
+      <trans-unit id="sdh-Cg-q1t.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "sdh-Cg-q1t";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/Home/productsCell/Base.lproj/productsCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="7yv-8J-9MY.text" xml:space="preserve">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "7yv-8J-9MY";</note>
+      </trans-unit>
+      <trans-unit id="hcO-wA-Csn.text" xml:space="preserve">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "hcO-wA-Csn";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/ProductDetiels/Base.lproj/productDetielsVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="8lv-ko-tLe.text" xml:space="preserve">
+        <source>Cart</source>
+        <target>عربة التسوق</target>
+        <note>Class = "UILabel"; text = "Cart"; ObjectID = "8lv-ko-tLe";</note>
+      </trans-unit>
+      <trans-unit id="Bj4-ph-w1j.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Bj4-ph-w1j";</note>
+      </trans-unit>
+      <trans-unit id="DUd-0f-baE.text" xml:space="preserve">
+        <source>Quantity</source>
+        <target>كمية</target>
+        <note>Class = "UILabel"; text = "Quantity"; ObjectID = "DUd-0f-baE";</note>
+      </trans-unit>
+      <trans-unit id="Mmy-xb-C9m.normalTitle" xml:space="preserve">
+        <source>More Info</source>
+        <target>مزيد من المعلومات</target>
+        <note>Class = "UIButton"; normalTitle = "More Info"; ObjectID = "Mmy-xb-C9m";</note>
+      </trans-unit>
+      <trans-unit id="NAM-h3-NHu.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "NAM-h3-NHu";</note>
+      </trans-unit>
+      <trans-unit id="T0K-0Q-1vE.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "T0K-0Q-1vE";</note>
+      </trans-unit>
+      <trans-unit id="Ycs-lm-76l.text" xml:space="preserve">
+        <source>1</source>
+        <target>1</target>
+        <note>Class = "UITextField"; text = "1"; ObjectID = "Ycs-lm-76l";</note>
+      </trans-unit>
+      <trans-unit id="b1u-1a-1Ea.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "b1u-1a-1Ea";</note>
+      </trans-unit>
+      <trans-unit id="fz9-6o-hdc.normalTitle" xml:space="preserve">
+        <source>Reviews</source>
+        <target>المراجعات</target>
+        <note>Class = "UIButton"; normalTitle = "Reviews"; ObjectID = "fz9-6o-hdc";</note>
+      </trans-unit>
+      <trans-unit id="qNM-7k-4GL.normalTitle" xml:space="preserve">
+        <source>Add Cart</source>
+        <target>إضافة إلى عربة التسوق</target>
+        <note>Class = "UIButton"; normalTitle = "Add Cart"; ObjectID = "qNM-7k-4GL";</note>
+      </trans-unit>
+      <trans-unit id="rTo-Iw-WKC.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "rTo-Iw-WKC";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/ProductDetiels/ProductReviewsCell/Base.lproj/reviewsCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="9im-vU-vgX.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "9im-vU-vgX";</note>
+      </trans-unit>
+      <trans-unit id="jxT-4h-a9e.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "jxT-4h-a9e";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/ShoppingNow/AllCategoury/AllCatCell/Base.lproj/allCatCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="jAX-p0-NpM.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "jAX-p0-NpM";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/SideMenu/Base.lproj/sideMenu.storyboard" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="3bf-3r-yJU.normalTitle" xml:space="preserve">
+        <source>Home</source>
+        <target>الصفحة الرئيسية</target>
+        <note>Class = "UIButton"; normalTitle = "Home"; ObjectID = "3bf-3r-yJU";</note>
+      </trans-unit>
+      <trans-unit id="12c-C5-yyl.normalTitle" xml:space="preserve">
+        <source>New Offers
+</source>
+        <target>عروض جديدة
+</target>
+        <note>Class = "UIButton"; normalTitle = "New Offers\n"; ObjectID = "12c-C5-yyl";</note>
+      </trans-unit>
+      <trans-unit id="FNS-et-dyQ.normalTitle" xml:space="preserve">
+        <source>My Wishlist</source>
+        <target>المفضله</target>
+        <note>Class = "UIButton"; normalTitle = "My Wishlist"; ObjectID = "FNS-et-dyQ";</note>
+      </trans-unit>
+      <trans-unit id="MYd-e0-rwf.normalTitle" xml:space="preserve">
+        <source>All Products 
+</source>
+        <target>جميع المنتجات
+</target>
+        <note>Class = "UIButton"; normalTitle = "All Products \n"; ObjectID = "MYd-e0-rwf";</note>
+      </trans-unit>
+      <trans-unit id="bvW-uk-8hg.normalTitle" xml:space="preserve">
+        <source>Language And Country</source>
+        <target>اللغة والبلد</target>
+        <note>Class = "UIButton"; normalTitle = "Language And Country"; ObjectID = "bvW-uk-8hg";</note>
+      </trans-unit>
+      <trans-unit id="dlN-pS-bRp.normalTitle" xml:space="preserve">
+        <source>Contact us 
+</source>
+        <target>اتصل بنا
+</target>
+        <note>Class = "UIButton"; normalTitle = "Contact us \n"; ObjectID = "dlN-pS-bRp";</note>
+      </trans-unit>
+      <trans-unit id="iNW-bz-Pmj.normalTitle" xml:space="preserve">
+        <source>About us</source>
+        <target>معلومات عنا</target>
+        <note>Class = "UIButton"; normalTitle = "About us"; ObjectID = "iNW-bz-Pmj";</note>
+      </trans-unit>
+      <trans-unit id="lXh-OJ-MEU.normalTitle" xml:space="preserve">
+        <source>Blogs</source>
+        <target>المدونات</target>
+        <note>Class = "UIButton"; normalTitle = "Blogs"; ObjectID = "lXh-OJ-MEU";</note>
+      </trans-unit>
+      <trans-unit id="qD6-za-VFg.normalTitle" xml:space="preserve">
+        <source>Logout</source>
+        <target>تسجيل خروج</target>
+        <note>Class = "UIButton"; normalTitle = "Logout"; ObjectID = "qD6-za-VFg";</note>
+      </trans-unit>
+      <trans-unit id="ruj-HA-vE6.normalTitle" xml:space="preserve">
+        <source>Shop now
+</source>
+        <target>تسوق الآن
+</target>
+        <note>Class = "UIButton"; normalTitle = "Shop now\n"; ObjectID = "ruj-HA-vE6";</note>
+      </trans-unit>
+      <trans-unit id="wJO-9W-enK.normalTitle" xml:space="preserve">
+        <source>My Orders
+</source>
+        <target>طلباتي
+</target>
+        <note>Class = "UIButton"; normalTitle = "My Orders\n"; ObjectID = "wJO-9W-enK";</note>
+      </trans-unit>
+      <trans-unit id="z5A-CQ-hOY.normalTitle" xml:space="preserve">
+        <source>Cart</source>
+        <target>عربة التسوق</target>
+        <note>Class = "UIButton"; normalTitle = "Cart"; ObjectID = "z5A-CQ-hOY";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/UserOrder/userOrderCell/Base.lproj/userOrderCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="90p-DJ-NuY.text" xml:space="preserve">
+        <source>Order Code</source>
+        <target>رمز الطلب</target>
+        <note>Class = "UILabel"; text = "Order Code"; ObjectID = "90p-DJ-NuY";</note>
+      </trans-unit>
+      <trans-unit id="E0M-kS-PPc.text" xml:space="preserve">
+        <source>Order Status</source>
+        <target>حالة الطلب</target>
+        <note>Class = "UILabel"; text = "Order Status"; ObjectID = "E0M-kS-PPc";</note>
+      </trans-unit>
+      <trans-unit id="UjH-XC-m45.text" xml:space="preserve">
+        <source>Order Id</source>
+        <target>رقم  الطلب</target>
+        <note>Class = "UILabel"; text = "Order Id"; ObjectID = "UjH-XC-m45";</note>
+      </trans-unit>
+      <trans-unit id="ara-vX-nxM.text" xml:space="preserve">
+        <source>Shipping Price</source>
+        <target>سعر الشحن</target>
+        <note>Class = "UILabel"; text = "Shipping Price"; ObjectID = "ara-vX-nxM";</note>
+      </trans-unit>
+      <trans-unit id="m9d-z2-KY5.text" xml:space="preserve">
+        <source>Total</source>
+        <target>مجموع</target>
+        <note>Class = "UILabel"; text = "Total"; ObjectID = "m9d-z2-KY5";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/UserOrderDitels/Base.lproj/userOrderDitelsVC.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="Igd-62-jAy.text" xml:space="preserve">
+        <source>Order Id</source>
+        <target>رقم  الطلب</target>
+        <note>Class = "UILabel"; text = "Order Id"; ObjectID = "Igd-62-jAy";</note>
+      </trans-unit>
+      <trans-unit id="V65-IB-mhN.text" xml:space="preserve">
+        <source>Order Code</source>
+        <target>رمز الطلب</target>
+        <note>Class = "UILabel"; text = "Order Code"; ObjectID = "V65-IB-mhN";</note>
+      </trans-unit>
+      <trans-unit id="akA-wH-P1l.text" xml:space="preserve">
+        <source>Order Status</source>
+        <target>حالة الطلب</target>
+        <note>Class = "UILabel"; text = "Order Status"; ObjectID = "akA-wH-P1l";</note>
+      </trans-unit>
+      <trans-unit id="hcz-bC-O4r.text" xml:space="preserve">
+        <source>Shipping Price</source>
+        <target>سعر الشحن</target>
+        <note>Class = "UILabel"; text = "Shipping Price"; ObjectID = "hcz-bC-O4r";</note>
+      </trans-unit>
+      <trans-unit id="pJa-vs-xxW.text" xml:space="preserve">
+        <source>Total</source>
+        <target>مجموع</target>
+        <note>Class = "UILabel"; text = "Total"; ObjectID = "pJa-vs-xxW";</note>
+      </trans-unit>
+      <trans-unit id="s6D-Eb-nPc.text" xml:space="preserve">
+        <source>Products</source>
+        <target>منتجات</target>
+        <note>Class = "UILabel"; text = "Products"; ObjectID = "s6D-Eb-nPc";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/Controller/UserOrderDitels/userOrderProductCell/Base.lproj/userOrderProductCell.xib" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="Jda-H9-wwj.text" xml:space="preserve">
+        <source>Quantity</source>
+        <target>كمية</target>
+        <note>Class = "UILabel"; text = "Quantity"; ObjectID = "Jda-H9-wwj";</note>
+      </trans-unit>
+      <trans-unit id="qhF-el-wxe.text" xml:space="preserve">
+        <source>TItle</source>
+        <target>عنوان</target>
+        <note>Class = "UILabel"; text = "TItle"; ObjectID = "qhF-el-wxe";</note>
+      </trans-unit>
+      <trans-unit id="qm6-dI-SEK.text" xml:space="preserve">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "qm6-dI-SEK";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Dabberha</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Gym/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+    </header>
+    <body>
+      <trans-unit id="Add cart" xml:space="preserve">
+        <source>Add cart</source>
+        <target>إضافة عربة</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add to Favorite" xml:space="preserve">
+        <source>Add to Favorite</source>
+        <target>أضف إلى المفضلة</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cart" xml:space="preserve">
+        <source>Cart</source>
+        <target>عربة التسوق</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Check your network" xml:space="preserve">
+        <source>Check your network</source>
+        <target>تحقق من شبكتك</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Error Cart" xml:space="preserve">
+        <source>Error Cart</source>
+        <target>عربة خطأ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Faild email or password is wrong" xml:space="preserve">
+        <source>Faild email or password is wrong</source>
+        <target>البريد الإلكتروني أو كلمة المرور خاطئة</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Faild your mail or phone is used" xml:space="preserve">
+        <source>Faild your mail or phone is used</source>
+        <target>البريد أو الهاتف الخاص بك مستخدم من قبل</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Items" xml:space="preserve">
+        <source>Items</source>
+        <target>العناصر</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Loading..." xml:space="preserve">
+        <source>Loading...</source>
+        <target>جار التحميل...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Login" xml:space="preserve">
+        <source>Login</source>
+        <target>Loading...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Order" xml:space="preserve">
+        <source>Order</source>
+        <target>طلب</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Order Code:" xml:space="preserve">
+        <source>Order Code:</source>
+        <target>رمز الطلب:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Order ID:" xml:space="preserve">
+        <source>Order ID:</source>
+        <target>رقم الطلب:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Order Status:" xml:space="preserve">
+        <source>Order Status:</source>
+        <target>حالة الطلب:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password and confirm password not match" xml:space="preserve">
+        <source>Password and confirm password not match</source>
+        <target>كلمة المرور وتأكيد كلمة المرور غير متطابقة</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please enter your Address" xml:space="preserve">
+        <source>Please enter your Address</source>
+        <target>الرجاء إدخال عنوانك</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please enter your Area And City" xml:space="preserve">
+        <source>Please enter your Area And City</source>
+        <target>الرجاء إدخال منطقتك ومدينتك</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Product" xml:space="preserve">
+        <source>Product</source>
+        <target>المنتج</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Product Quantity:" xml:space="preserve">
+        <source>Product Quantity:</source>
+        <target>كمية المنتج:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Shipping Price:" xml:space="preserve">
+        <source>Shipping Price:</source>
+        <target>سعر الشحن:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sign Up" xml:space="preserve">
+        <source>Sign Up</source>
+        <target>سجل</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Total Cost" xml:space="preserve">
+        <source>Total Cost</source>
+        <target>التكلفة الإجمالية</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Total Price:" xml:space="preserve">
+        <source>Total Price:</source>
+        <target>السعر الكلي:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Total price" xml:space="preserve">
+        <source>Total price</source>
+        <target>السعر الكلي</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Total:" xml:space="preserve">
+        <source>Total:</source>
+        <target>مجموع:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your Order ID Is" xml:space="preserve">
+        <source>Your Order ID Is</source>
+        <target>رقم الطلب الخاص بك</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo-SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="aboutUsVC" customModule="Gym" customModuleProvider="target">
+            <connections>
+                <outlet property="aboutImage" destination="xl2-pp-fzn" id="TFH-Hf-KMb"/>
+                <outlet property="aboutTitle" destination="KRn-Ae-M53" id="e5e-T6-nxg"/>
+                <outlet property="desc" destination="LY0-qk-v34" id="rEh-XH-BTe"/>
+                <outlet property="reviewsTabelView" destination="XZr-K1-B5R" id="PqQ-ok-XaS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVv-PM-3Yy">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bwk-of-vdd">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="823"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRn-Ae-M53">
+                                    <rect key="frame" x="8" y="327" width="398" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LY0-qk-v34">
+                                    <rect key="frame" x="8" y="343" width="398" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="12"/>
+                                    <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xl2-pp-fzn">
+                                    <rect key="frame" x="16" y="50" width="382" height="269"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiD-vF-eiu">
+                                    <rect key="frame" x="8" y="375" width="398" height="32"/>
+                                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XZr-K1-B5R">
+                                    <rect key="frame" x="8" y="415" width="398" height="400"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="400" id="AE7-lO-sA1"/>
+                                    </constraints>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="EiD-vF-eiu" secondAttribute="trailing" constant="8" id="0D1-Km-VGb"/>
+                                <constraint firstItem="LY0-qk-v34" firstAttribute="top" secondItem="KRn-Ae-M53" secondAttribute="bottom" constant="16" id="2EB-JI-thR"/>
+                                <constraint firstItem="xl2-pp-fzn" firstAttribute="leading" secondItem="Bwk-of-vdd" secondAttribute="leading" constant="16" id="3Xl-PI-QFX"/>
+                                <constraint firstItem="KRn-Ae-M53" firstAttribute="leading" secondItem="Bwk-of-vdd" secondAttribute="leading" constant="8" id="4rB-V5-oZw"/>
+                                <constraint firstItem="EiD-vF-eiu" firstAttribute="top" secondItem="LY0-qk-v34" secondAttribute="bottom" constant="32" id="82w-vh-sEX"/>
+                                <constraint firstItem="EiD-vF-eiu" firstAttribute="leading" secondItem="Bwk-of-vdd" secondAttribute="leading" constant="8" id="LzS-l7-kdc"/>
+                                <constraint firstAttribute="trailing" secondItem="xl2-pp-fzn" secondAttribute="trailing" constant="16" id="WQ8-Ml-5sz"/>
+                                <constraint firstItem="LY0-qk-v34" firstAttribute="leading" secondItem="Bwk-of-vdd" secondAttribute="leading" constant="8" id="XbZ-H2-pUt"/>
+                                <constraint firstItem="XZr-K1-B5R" firstAttribute="top" secondItem="EiD-vF-eiu" secondAttribute="bottom" constant="8" id="ecc-VQ-DZp"/>
+                                <constraint firstItem="xl2-pp-fzn" firstAttribute="top" secondItem="Bwk-of-vdd" secondAttribute="top" constant="50" id="gVJ-zG-zpS"/>
+                                <constraint firstAttribute="trailing" secondItem="KRn-Ae-M53" secondAttribute="trailing" constant="8" id="jwo-RW-xZ0"/>
+                                <constraint firstAttribute="bottom" secondItem="XZr-K1-B5R" secondAttribute="bottom" constant="8" id="lBm-xW-YWY"/>
+                                <constraint firstAttribute="trailing" secondItem="LY0-qk-v34" secondAttribute="trailing" constant="8" id="lnh-ZG-nLR"/>
+                                <constraint firstItem="XZr-K1-B5R" firstAttribute="leading" secondItem="Bwk-of-vdd" secondAttribute="leading" constant="8" id="q9A-dK-Zx6"/>
+                                <constraint firstItem="KRn-Ae-M53" firstAttribute="top" secondItem="xl2-pp-fzn" secondAttribute="bottom" constant="8" id="vdW-gj-NtM"/>
+                                <constraint firstAttribute="trailing" secondItem="XZr-K1-B5R" secondAttribute="trailing" constant="8" id="vhr-Aa-fOX"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Bwk-of-vdd" firstAttribute="trailing" secondItem="T4f-BT-fMo" secondAttribute="trailing" id="QIg-rA-OSi"/>
+                        <constraint firstItem="Bwk-of-vdd" firstAttribute="leading" secondItem="T4f-BT-fMo" secondAttribute="leading" id="TUd-Wx-TaV"/>
+                        <constraint firstItem="Bwk-of-vdd" firstAttribute="top" secondItem="T4f-BT-fMo" secondAttribute="top" id="Tef-F5-inX"/>
+                        <constraint firstItem="Bwk-of-vdd" firstAttribute="bottom" secondItem="T4f-BT-fMo" secondAttribute="bottom" id="UMR-5O-fZO"/>
+                        <constraint firstItem="Bwk-of-vdd" firstAttribute="width" secondItem="Hnu-TF-Whi" secondAttribute="width" id="WL0-Lb-UBI"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="T4f-BT-fMo"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Hnu-TF-Whi"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sVv-PM-3Yy" secondAttribute="bottom" id="Hgp-ZY-pld"/>
+                <constraint firstItem="sVv-PM-3Yy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Tvn-fu-c0Z"/>
+                <constraint firstItem="sVv-PM-3Yy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="azw-C8-4qA"/>
+                <constraint firstItem="sVv-PM-3Yy" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="b9J-d6-vka"/>
+                <constraint firstItem="xl2-pp-fzn" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.300223" id="rsH-bX-TMJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+</document>

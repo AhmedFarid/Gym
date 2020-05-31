@@ -1,0 +1,42 @@
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "4BT-aL-ED3"; */
+"4BT-aL-ED3.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9qw-ip-i84"; */
+"9qw-ip-i84.placeholder" = "كلمه السر";
+
+/* Class = "UITextField"; placeholder = "phone"; ObjectID = "Bnt-S0-lsh"; */
+"Bnt-S0-lsh.placeholder" = "هاتف";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "CaC-o5-x3X"; */
+"CaC-o5-x3X.normalTitle" = "سجل";
+
+/* Class = "UILabel"; text = "phone"; ObjectID = "COM-yg-LLh"; */
+"COM-yg-LLh.text" = "هاتف";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "jHp-LL-G5O"; */
+"jHp-LL-G5O.placeholder" = "عنوان";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "K6r-dH-ogi"; */
+"K6r-dH-ogi.text" = "الاسم الكامل";
+
+/* Class = "UILabel"; text = "SIGN UP"; ObjectID = "LLh-CG-k8q"; */
+"LLh-CG-k8q.text" = "سجل";
+
+/* Class = "UILabel"; text = "Confirm password"; ObjectID = "ngS-j2-3rb"; */
+"ngS-j2-3rb.text" = "تأكيد كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "NL5-9M-8ks"; */
+"NL5-9M-8ks.placeholder" = "الاسم الكامل";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "rOf-pH-GuQ"; */
+"rOf-pH-GuQ.text" = "كلمه السر";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "uzi-Fj-TAd"; */
+"uzi-Fj-TAd.text" = "البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "veM-aH-OOb"; */
+"veM-aH-OOb.text" = "عنوان";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "ygo-Xy-hBm"; */
+"ygo-Xy-hBm.placeholder" = "تأكيد كلمة المرور";
+

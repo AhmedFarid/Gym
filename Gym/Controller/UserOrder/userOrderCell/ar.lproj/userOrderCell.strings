@@ -1,0 +1,15 @@
+/* Class = "UILabel"; text = "Order Code"; ObjectID = "90p-DJ-NuY"; */
+"90p-DJ-NuY.text" = "رمز الطلب";
+
+/* Class = "UILabel"; text = "Shipping Price"; ObjectID = "ara-vX-nxM"; */
+"ara-vX-nxM.text" = "سعر الشحن";
+
+/* Class = "UILabel"; text = "Order Status"; ObjectID = "E0M-kS-PPc"; */
+"E0M-kS-PPc.text" = "حالة الطلب";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "m9d-z2-KY5"; */
+"m9d-z2-KY5.text" = "مجموع";
+
+/* Class = "UILabel"; text = "Order Id"; ObjectID = "UjH-XC-m45"; */
+"UjH-XC-m45.text" = "رقم  الطلب";
+

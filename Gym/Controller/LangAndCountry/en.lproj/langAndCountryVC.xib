@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="langAndCountryVC" customModule="Dabberha" customModuleProvider="target">
+            <connections>
+                <outlet property="arMark" destination="bPb-jq-tAC" id="xXL-s2-X44"/>
+                <outlet property="egyBTNMark" destination="JJT-67-8mC" id="cm3-3I-dw4"/>
+                <outlet property="emaratMark" destination="Hfc-gN-abG" id="pgN-9D-aF0"/>
+                <outlet property="engMark" destination="H2x-qc-RnN" id="pSi-bt-gTF"/>
+                <outlet property="kuwaitMark" destination="HCU-av-Srd" id="XUl-Wb-B6r"/>
+                <outlet property="saudiMark" destination="Den-uv-cnW" id="cdN-cg-AST"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruh-yx-og6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Klb-1v-fWo">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="895.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo gold" translatesAutoresizingMaskIntoConstraints="NO" id="FJz-ff-F1e">
+                                    <rect key="frame" x="137" y="52" width="140" height="134"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCH-6q-BNz">
+                                    <rect key="frame" x="16" y="424.5" width="382" height="42"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="22"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZk-y8-K7Q">
+                                    <rect key="frame" x="16" y="329.5" width="346" height="62"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="    English " image="Group 370">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="engBTN:" destination="-1" eventType="touchUpInside" id="G43-EX-9Yg"/>
+                                    </connections>
+                                </button>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="H2x-qc-RnN">
+                                    <rect key="frame" x="378" y="350.5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="TV4-6s-AXf"/>
+                                        <constraint firstAttribute="width" constant="20" id="zmO-v6-Qih"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrL-jj-JqY">
+                                    <rect key="frame" x="16" y="251.5" width="346" height="62"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="عربي                " image="Group 361">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="arBTN:" destination="-1" eventType="touchUpInside" id="bSq-ak-6nW"/>
+                                    </connections>
+                                </button>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="bPb-jq-tAC">
+                                    <rect key="frame" x="378" y="272.5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="Fmb-Tb-e9B"/>
+                                        <constraint firstAttribute="height" constant="20" id="H5e-oF-JRm"/>
+                                    </constraints>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nht-MX-Wkt">
+                                    <rect key="frame" x="16" y="407.5" width="382" height="1"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="GLg-lN-GKx"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-8t-GgG">
+                                    <rect key="frame" x="16" y="194" width="382" height="41.5"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="22"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ruf-uw-aiu">
+                                    <rect key="frame" x="16" y="482.5" width="346" height="62"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="    Saudi " image="Group 360">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="saudiBTN:" destination="-1" eventType="touchUpInside" id="S0c-ft-brx"/>
+                                    </connections>
+                                </button>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="Den-uv-cnW">
+                                    <rect key="frame" x="378" y="503.5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="7mL-mn-7sG"/>
+                                        <constraint firstAttribute="height" constant="20" id="Vbx-D2-aeu"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ked-t2-OaT">
+                                    <rect key="frame" x="16" y="560.5" width="346" height="64"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="    Emarat " image="united-arab-emirates">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="emaratBTN:" destination="-1" eventType="touchUpInside" id="N8y-GI-k6n"/>
+                                    </connections>
+                                </button>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="Hfc-gN-abG">
+                                    <rect key="frame" x="378" y="582.5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="VRM-nr-Zzp"/>
+                                        <constraint firstAttribute="height" constant="20" id="d5s-T0-lhc"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezi-P2-hhS">
+                                    <rect key="frame" x="16" y="640.5" width="346" height="62"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="    Kuwait  " image="kuwait">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="kuwaitBTN:" destination="-1" eventType="touchUpInside" id="hot-Cx-W5d"/>
+                                    </connections>
+                                </button>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="HCU-av-Srd">
+                                    <rect key="frame" x="378" y="661.5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="SMJ-bI-Mfx"/>
+                                        <constraint firstAttribute="width" constant="20" id="YuX-V6-txA"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 2489" translatesAutoresizingMaskIntoConstraints="NO" id="JJT-67-8mC">
+                                    <rect key="frame" x="378" y="740" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="AjX-jO-FK9"/>
+                                        <constraint firstAttribute="height" constant="20" id="Q4h-Y0-SyV"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgK-dl-4Eo" customClass="costomButton" customModule="Dabberha" customModuleProvider="target">
+                                    <rect key="frame" x="86" y="813.5" width="242" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="MPu-bv-g2m"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <state key="normal" title="Next" backgroundImage="Group 268">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="roudnCornr">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="nextBTN:" destination="-1" eventType="touchUpInside" id="KkZ-F7-VOi"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcC-ZK-Amk">
+                                    <rect key="frame" x="16" y="718.5" width="346" height="63"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <state key="normal" title="    Egypt " image="egypt">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="egyBTN:" destination="-1" eventType="touchUpInside" id="ouO-8m-Twn"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.13331967589999999" green="0.13334098459999999" blue="0.13331243400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="Hfc-gN-abG" firstAttribute="leading" secondItem="Ked-t2-OaT" secondAttribute="trailing" constant="16" id="0T1-v9-1b4"/>
+                                <constraint firstAttribute="trailing" secondItem="H2x-qc-RnN" secondAttribute="trailing" constant="16" id="2NE-Wh-Xeh"/>
+                                <constraint firstItem="ZCH-6q-BNz" firstAttribute="top" secondItem="nht-MX-Wkt" secondAttribute="bottom" constant="16" id="4oF-S5-XLl"/>
+                                <constraint firstItem="nht-MX-Wkt" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="64X-E6-z9r"/>
+                                <constraint firstItem="HCU-av-Srd" firstAttribute="leading" secondItem="Ezi-P2-hhS" secondAttribute="trailing" constant="16" id="75v-Qb-Z1z"/>
+                                <constraint firstItem="TZk-y8-K7Q" firstAttribute="top" secondItem="MrL-jj-JqY" secondAttribute="bottom" constant="16" id="7qr-gg-Btl"/>
+                                <constraint firstItem="H2x-qc-RnN" firstAttribute="centerY" secondItem="TZk-y8-K7Q" secondAttribute="centerY" id="87h-V2-61C"/>
+                                <constraint firstAttribute="trailing" secondItem="Den-uv-cnW" secondAttribute="trailing" constant="16" id="8Wy-zf-efp"/>
+                                <constraint firstItem="Ruf-uw-aiu" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="Ak2-98-aKi"/>
+                                <constraint firstAttribute="trailing" secondItem="bPb-jq-tAC" secondAttribute="trailing" constant="16" id="C7e-wc-9aM"/>
+                                <constraint firstAttribute="trailing" secondItem="JJT-67-8mC" secondAttribute="trailing" constant="16" id="Edb-sP-xe8"/>
+                                <constraint firstItem="ZCH-6q-BNz" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="GYB-pM-KZP"/>
+                                <constraint firstItem="bPb-jq-tAC" firstAttribute="centerY" secondItem="MrL-jj-JqY" secondAttribute="centerY" id="Gfq-nB-PXc"/>
+                                <constraint firstItem="FJz-ff-F1e" firstAttribute="centerX" secondItem="Klb-1v-fWo" secondAttribute="centerX" id="Guo-bw-0YP"/>
+                                <constraint firstAttribute="trailing" secondItem="HCU-av-Srd" secondAttribute="trailing" constant="16" id="IV2-SM-8BT"/>
+                                <constraint firstItem="FJz-ff-F1e" firstAttribute="top" secondItem="Klb-1v-fWo" secondAttribute="top" constant="52" id="Iud-NO-0gz"/>
+                                <constraint firstAttribute="bottom" secondItem="WgK-dl-4Eo" secondAttribute="bottom" constant="32" id="LP1-1T-UGV"/>
+                                <constraint firstItem="Ked-t2-OaT" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="MMH-G0-7uP"/>
+                                <constraint firstAttribute="trailing" secondItem="ZCH-6q-BNz" secondAttribute="trailing" constant="16" id="OHJ-Ef-TT3"/>
+                                <constraint firstItem="Ked-t2-OaT" firstAttribute="top" secondItem="Ruf-uw-aiu" secondAttribute="bottom" constant="16" id="PG0-R9-hsq"/>
+                                <constraint firstAttribute="trailing" secondItem="Hfc-gN-abG" secondAttribute="trailing" constant="16" id="R6C-ha-hae"/>
+                                <constraint firstItem="DsH-8t-GgG" firstAttribute="top" secondItem="FJz-ff-F1e" secondAttribute="bottom" constant="8" id="RKy-BI-L05"/>
+                                <constraint firstItem="nht-MX-Wkt" firstAttribute="top" secondItem="TZk-y8-K7Q" secondAttribute="bottom" constant="16" id="VVs-6t-UeW"/>
+                                <constraint firstItem="MrL-jj-JqY" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="Vbo-7d-TzB"/>
+                                <constraint firstItem="WgK-dl-4Eo" firstAttribute="top" secondItem="RcC-ZK-Amk" secondAttribute="bottom" constant="32" id="Xcn-OE-Qvg"/>
+                                <constraint firstItem="Den-uv-cnW" firstAttribute="leading" secondItem="Ruf-uw-aiu" secondAttribute="trailing" constant="16" id="YFt-Vo-HRR"/>
+                                <constraint firstItem="JJT-67-8mC" firstAttribute="leading" secondItem="RcC-ZK-Amk" secondAttribute="trailing" constant="16" id="ZCU-IF-RX3"/>
+                                <constraint firstItem="Ezi-P2-hhS" firstAttribute="top" secondItem="Ked-t2-OaT" secondAttribute="bottom" constant="16" id="aTH-oq-8OV"/>
+                                <constraint firstItem="RcC-ZK-Amk" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="af8-ry-4xP"/>
+                                <constraint firstItem="WgK-dl-4Eo" firstAttribute="centerX" secondItem="Klb-1v-fWo" secondAttribute="centerX" id="bm1-g8-2TP"/>
+                                <constraint firstItem="Ruf-uw-aiu" firstAttribute="top" secondItem="ZCH-6q-BNz" secondAttribute="bottom" constant="16" id="cQ9-Hk-TiM"/>
+                                <constraint firstItem="Den-uv-cnW" firstAttribute="centerY" secondItem="Ruf-uw-aiu" secondAttribute="centerY" id="dR2-vu-g49"/>
+                                <constraint firstItem="JJT-67-8mC" firstAttribute="centerY" secondItem="RcC-ZK-Amk" secondAttribute="centerY" id="ihM-lj-Woc"/>
+                                <constraint firstItem="Hfc-gN-abG" firstAttribute="centerY" secondItem="Ked-t2-OaT" secondAttribute="centerY" id="jHb-jO-3Cd"/>
+                                <constraint firstItem="DsH-8t-GgG" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="kBm-Gw-3ot"/>
+                                <constraint firstAttribute="trailing" secondItem="DsH-8t-GgG" secondAttribute="trailing" constant="16" id="mnH-al-NyZ"/>
+                                <constraint firstItem="RcC-ZK-Amk" firstAttribute="top" secondItem="Ezi-P2-hhS" secondAttribute="bottom" constant="16" id="p8X-ZK-cXN"/>
+                                <constraint firstAttribute="trailing" secondItem="nht-MX-Wkt" secondAttribute="trailing" constant="16" id="r2V-CR-vZw"/>
+                                <constraint firstItem="Ezi-P2-hhS" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="tcB-ia-BBo"/>
+                                <constraint firstItem="HCU-av-Srd" firstAttribute="centerY" secondItem="Ezi-P2-hhS" secondAttribute="centerY" id="vPP-fE-x2N"/>
+                                <constraint firstItem="TZk-y8-K7Q" firstAttribute="leading" secondItem="Klb-1v-fWo" secondAttribute="leading" constant="16" id="vua-LL-wln"/>
+                                <constraint firstItem="H2x-qc-RnN" firstAttribute="leading" secondItem="TZk-y8-K7Q" secondAttribute="trailing" constant="16" id="wqj-qd-3sW"/>
+                                <constraint firstItem="bPb-jq-tAC" firstAttribute="leading" secondItem="MrL-jj-JqY" secondAttribute="trailing" constant="16" id="xGs-eY-s7V"/>
+                                <constraint firstItem="MrL-jj-JqY" firstAttribute="top" secondItem="DsH-8t-GgG" secondAttribute="bottom" constant="16" id="xq9-3u-kwL"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Klb-1v-fWo" firstAttribute="width" secondItem="6RV-PY-ly1" secondAttribute="width" id="HSl-4A-Ktu"/>
+                        <constraint firstItem="Klb-1v-fWo" firstAttribute="trailing" secondItem="CcJ-Ds-QgP" secondAttribute="trailing" id="Lcq-8U-GUz"/>
+                        <constraint firstItem="Klb-1v-fWo" firstAttribute="bottom" secondItem="CcJ-Ds-QgP" secondAttribute="bottom" id="T6p-Ci-FZL"/>
+                        <constraint firstItem="Klb-1v-fWo" firstAttribute="leading" secondItem="CcJ-Ds-QgP" secondAttribute="leading" id="Y0s-eR-ia3"/>
+                        <constraint firstItem="Klb-1v-fWo" firstAttribute="top" secondItem="CcJ-Ds-QgP" secondAttribute="top" id="dZA-mg-4NK"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="CcJ-Ds-QgP"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="6RV-PY-ly1"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.13331967589999999" green="0.13334098459999999" blue="0.13331243400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ruh-yx-og6" secondAttribute="bottom" id="Eyx-nq-hwi"/>
+                <constraint firstItem="FJz-ff-F1e" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.149554" id="MMq-9T-oAu"/>
+                <constraint firstItem="ruh-yx-og6" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="XvP-Cx-8hm"/>
+                <constraint firstItem="WgK-dl-4Eo" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.584541" id="ebZ-Va-Hb3"/>
+                <constraint firstItem="ruh-yx-og6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jBl-xk-f2n"/>
+                <constraint firstItem="FJz-ff-F1e" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.338164" id="kNh-aU-6yT"/>
+                <constraint firstItem="ruh-yx-og6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xeJ-z7-qhs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 268" width="1199" height="271"/>
+        <image name="Group 360" width="62" height="62"/>
+        <image name="Group 361" width="62" height="62"/>
+        <image name="Group 370" width="62" height="62"/>
+        <image name="Path 2489" width="19.5" height="17.5"/>
+        <image name="egypt" width="63" height="63"/>
+        <image name="kuwait" width="62" height="62"/>
+        <image name="logo gold" width="236" height="190"/>
+        <image name="united-arab-emirates" width="64" height="64"/>
+    </resources>
+</document>

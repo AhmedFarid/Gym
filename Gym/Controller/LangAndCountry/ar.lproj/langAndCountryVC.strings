@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "DsH-8t-GgG"; */
+"DsH-8t-GgG.text" = "Select Language";
+
+/* Class = "UIButton"; normalTitle = "    Kuwait  "; ObjectID = "Ezi-P2-hhS"; */
+"Ezi-P2-hhS.normalTitle" = "    Kuwait  ";
+
+/* Class = "UIButton"; normalTitle = "    Emarat "; ObjectID = "Ked-t2-OaT"; */
+"Ked-t2-OaT.normalTitle" = "    Emarat ";
+
+/* Class = "UIButton"; normalTitle = "عربي                "; ObjectID = "MrL-jj-JqY"; */
+"MrL-jj-JqY.normalTitle" = "عربي                ";
+
+/* Class = "UIButton"; normalTitle = "    Egypt "; ObjectID = "RcC-ZK-Amk"; */
+"RcC-ZK-Amk.normalTitle" = "    Egypt ";
+
+/* Class = "UIButton"; normalTitle = "    Saudi "; ObjectID = "Ruf-uw-aiu"; */
+"Ruf-uw-aiu.normalTitle" = "    Saudi ";
+
+/* Class = "UIButton"; normalTitle = "    English "; ObjectID = "TZk-y8-K7Q"; */
+"TZk-y8-K7Q.normalTitle" = "    English ";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "WgK-dl-4Eo"; */
+"WgK-dl-4Eo.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Select Country"; ObjectID = "ZCH-6q-BNz"; */
+"ZCH-6q-BNz.text" = "Select Country";
