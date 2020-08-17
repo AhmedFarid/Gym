@@ -27,7 +27,7 @@ class productsCell: UICollectionViewCell {
     func configureCell(product: productData){
         rate.rating = Double(product.rate ?? 0)
         nameTF.text = product.title
-        priceTF.text = "\(product.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
+        priceTF.text = "\(product.sizes?.first?.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
         if product.isFavorite == true {
             favBTN.setImage(UIImage(named: "Group 1"), for: .normal)
         }else {

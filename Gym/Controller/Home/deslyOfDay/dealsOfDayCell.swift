@@ -31,7 +31,7 @@ class dealsOfDayCell: UICollectionViewCell {
     func configureCell(product: dellData){
         rate.rating = Double(product.rate ?? 0)
         nameTF.text = product.title
-        priceTF.text = "\(product.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
+        priceTF.text = "\(product.sizes?.first?.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
         desc.text = product.dataDescription?.html2String
         day.text = "\(product.day ?? 0)"
         hrs.text = "\(product.hour ?? 0)"

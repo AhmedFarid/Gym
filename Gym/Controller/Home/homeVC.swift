@@ -8,6 +8,7 @@
 
 import UIKit
 import NVActivityIndicatorView
+import MOLH
 
 class homeVC: UIViewController, NVActivityIndicatorViewable{
     
@@ -115,6 +116,7 @@ class homeVC: UIViewController, NVActivityIndicatorViewable{
         homeApi.bannerApi{ (error,success,banners) in
             if let banners = banners{
                 self.banners = banners.data ?? []
+                self.bannerCollectionView.semanticContentAttribute = .forceLeftToRight
                 print(banners)
                 self.socendBannerCollecctionView.reloadData()
             }
@@ -194,9 +196,9 @@ class homeVC: UIViewController, NVActivityIndicatorViewable{
         startAnimating(CGSize(width: 45, height: 45), message: Loading,type: .ballSpinFadeLoader, color: .black, textColor: .white)
         homeApi.dellProduct{ (error,success,dell) in
             if let dell = dell?.data{
-                self.dellProduct.append(productData(id: dell.id, title: dell.title, datumDescription: dell.dataDescription, more: dell.more, price: dell.price, discount: dell.discount, quantity: dell.quantity, rate: dell.rate, isFavorite: dell.isFavorite, images: dell.images))
+                self.dellProduct.append(productData(id: dell.id, title: dell.title, datumDescription: dell.dataDescription, more: dell.more,  discount: dell.discount, rate: dell.rate, isFavorite: dell.isFavorite, images: dell.images, sizes: dell.sizes))
                 self.dellProducts.append(dellData(id: dell.id
-                , title: dell.title, dataDescription: dell.dataDescription, more: dell.more, price: dell.price, discount: dell.discount, quantity: dell.quantity, rate: dell.rate, day: dell.day, hour: dell.hour, min: dell.min, isFavorite: dell.isFavorite, images: dell.images, reviews: dell.reviews))
+                    , title: dell.title, dataDescription: dell.dataDescription, more: dell.more, discount: dell.discount, rate: dell.rate, day: dell.day, hour: dell.hour, min: dell.min, isFavorite: dell.isFavorite, images: dell.images, sizes: dell.sizes, reviews: dell.reviews))
                 self.dellsOfDayCollection.reloadData()
                 self.stopAnimating()
             }
@@ -304,7 +306,11 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         } else if collectionView == bestSellingCollectionView {
             if let cell = bestSellingCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productsCell {
                 cell.configureCell(product:  bestSelling[indexPath.row])
-                
+                if MOLHLanguage.currentAppleLanguage() == "ar"{
+                    collectionView.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    cell.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    
+                }
                 return cell
             }else {
                 return productsCell()
@@ -312,7 +318,11 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         }else if collectionView == newArrivalsCollectionView {
             if let cell = newArrivalsCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productsCell {
                 cell.configureCell(product:  newArrivals[indexPath.row])
-                
+                if MOLHLanguage.currentAppleLanguage() == "ar"{
+                    collectionView.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    cell.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    
+                }
                 return cell
             }else {
                 return productsCell()
@@ -320,7 +330,11 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         }else if collectionView == blogsCollectionView {
             if let cell = blogsCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? blogsCell {
                 cell.configureCell(blogs: blogs[indexPath.row])
-                
+                if MOLHLanguage.currentAppleLanguage() == "ar"{
+                    collectionView.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    cell.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    
+                }
                 return cell
             }else {
                 return blogsCell()
@@ -328,6 +342,11 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         }else if collectionView == dellsOfDayCollection {
             if let cell = dellsOfDayCollection.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? dealsOfDayCell {
                 cell.configureCell(product:  dellProducts[indexPath.row])
+                if MOLHLanguage.currentAppleLanguage() == "ar"{
+                    collectionView.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    cell.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    
+                }
                 return cell
             }else {
                 return dealsOfDayCell()
@@ -335,6 +354,11 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         }else {
             if let cell = featuredCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productsCell {
                 cell.configureCell(product:  featuredData[indexPath.row])
+                if MOLHLanguage.currentAppleLanguage() == "ar"{
+                    collectionView.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    cell.transform = CGAffineTransform(scaleX:-1,y: 1);
+                    
+                }
                 
                 return cell
             }else {
@@ -355,4 +379,19 @@ extension homeVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollecti
         }
     }
     
+}
+
+extension UITextField {
+    open override func awakeFromNib() {
+        super.awakeFromNib()
+        if MOLHLanguage.currentAppleLanguage() == "ar" {
+            if textAlignment == .natural {
+                self.textAlignment = .right
+            }
+        }else {
+            if textAlignment == .natural {
+                self.textAlignment = .left
+            }
+        }
+    }
 }

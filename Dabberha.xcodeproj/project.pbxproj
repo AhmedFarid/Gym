@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6036E4D55FBC59F371085C8E /* Pods_Dabberha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B03EBB3B8C193B061C1CA4 /* Pods_Dabberha.framework */; };
 		6900274C2469980700463A42 /* userOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6900274B2469980700463A42 /* userOrder.swift */; };
 		6900274F2469998000463A42 /* userOrderApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6900274E2469998000463A42 /* userOrderApi.swift */; };
 		6900275424699A2100463A42 /* userOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6900275224699A2100463A42 /* userOrderVC.swift */; };
@@ -16,6 +17,8 @@
 		690027682469B12800463A42 /* langAndCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690027662469B12800463A42 /* langAndCountryVC.swift */; };
 		69050A8A2463888B00484B5C /* blogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69050A892463888B00484B5C /* blogs.swift */; };
 		69050A8E24638A1A00484B5C /* blogsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69050A8C24638A1A00484B5C /* blogsCell.swift */; };
+		69165D7524E9B4340019C77A /* productSizesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69165D7324E9B4340019C77A /* productSizesCell.swift */; };
+		69165D7624E9B4340019C77A /* productSizesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69165D7424E9B4340019C77A /* productSizesCell.xib */; };
 		69174812246B07A700CDB7FF /* langAndCountryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69174814246B07A700CDB7FF /* langAndCountryVC.xib */; };
 		69174817246B07BF00CDB7FF /* userOrderDitelsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69174819246B07BF00CDB7FF /* userOrderDitelsVC.xib */; };
 		6917481A246B07C500CDB7FF /* userOrderProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6917481C246B07C500CDB7FF /* userOrderProductCell.xib */; };
@@ -108,12 +111,11 @@
 		69F2D62B24675EEC00CE9EBE /* allBlogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2D62924675EEC00CE9EBE /* allBlogsVC.swift */; };
 		69F2D62F246762D900CE9EBE /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2D62E246762D900CE9EBE /* cart.swift */; };
 		69F2D635246771C200CE9EBE /* cartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2D633246771C200CE9EBE /* cartCell.swift */; };
-		720C9DC82830AC92AE7FA7CC /* Pods_Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3183FE5EB736D36A60CD8D3D /* Pods_Gym.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07C8CB1B8CD50C32ED9A20BC /* Pods-Gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gym.debug.xcconfig"; path = "Target Support Files/Pods-Gym/Pods-Gym.debug.xcconfig"; sourceTree = "<group>"; };
-		3183FE5EB736D36A60CD8D3D /* Pods_Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B03EBB3B8C193B061C1CA4 /* Pods_Dabberha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dabberha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA37B057002BA6CF991ED94 /* Pods-Gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gym.release.xcconfig"; path = "Target Support Files/Pods-Gym/Pods-Gym.release.xcconfig"; sourceTree = "<group>"; };
 		6900274B2469980700463A42 /* userOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userOrder.swift; sourceTree = "<group>"; };
 		6900274E2469998000463A42 /* userOrderApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userOrderApi.swift; sourceTree = "<group>"; };
@@ -124,6 +126,8 @@
 		690027662469B12800463A42 /* langAndCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = langAndCountryVC.swift; sourceTree = "<group>"; };
 		69050A892463888B00484B5C /* blogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogs.swift; sourceTree = "<group>"; };
 		69050A8C24638A1A00484B5C /* blogsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogsCell.swift; sourceTree = "<group>"; };
+		69165D7324E9B4340019C77A /* productSizesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productSizesCell.swift; sourceTree = "<group>"; };
+		69165D7424E9B4340019C77A /* productSizesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = productSizesCell.xib; sourceTree = "<group>"; };
 		69174813246B07A700CDB7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/langAndCountryVC.xib; sourceTree = "<group>"; };
 		69174818246B07BF00CDB7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/userOrderDitelsVC.xib; sourceTree = "<group>"; };
 		6917481B246B07C500CDB7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/userOrderProductCell.xib; sourceTree = "<group>"; };
@@ -245,6 +249,8 @@
 		69F2D62924675EEC00CE9EBE /* allBlogsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allBlogsVC.swift; sourceTree = "<group>"; };
 		69F2D62E246762D900CE9EBE /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
 		69F2D633246771C200CE9EBE /* cartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartCell.swift; sourceTree = "<group>"; };
+		70D41B0593F444313F54CAF0 /* Pods-Dabberha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabberha.debug.xcconfig"; path = "Target Support Files/Pods-Dabberha/Pods-Dabberha.debug.xcconfig"; sourceTree = "<group>"; };
+		858A20C413581884E144E272 /* Pods-Dabberha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabberha.release.xcconfig"; path = "Target Support Files/Pods-Dabberha/Pods-Dabberha.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				692DAAD0246853F5009CA223 /* WebKit.framework in Frameworks */,
-				720C9DC82830AC92AE7FA7CC /* Pods_Gym.framework in Frameworks */,
+				6036E4D55FBC59F371085C8E /* Pods_Dabberha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				692DAACF246853F5009CA223 /* WebKit.framework */,
-				3183FE5EB736D36A60CD8D3D /* Pods_Gym.framework */,
+				24B03EBB3B8C193B061C1CA4 /* Pods_Dabberha.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -339,6 +345,15 @@
 				6917484F246B087000CDB7FF /* blogsCell.xib */,
 			);
 			path = blogsCell;
+			sourceTree = "<group>";
+		};
+		69165D7224E9B40B0019C77A /* ProductSizes */ = {
+			isa = PBXGroup;
+			children = (
+				69165D7324E9B4340019C77A /* productSizesCell.swift */,
+				69165D7424E9B4340019C77A /* productSizesCell.xib */,
+			);
+			path = ProductSizes;
 			sourceTree = "<group>";
 		};
 		692DAAB324683592009CA223 /* AboutUs */ = {
@@ -781,6 +796,7 @@
 		69DC16AA2465FB7E00B7560B /* ProductDetiels */ = {
 			isa = PBXGroup;
 			children = (
+				69165D7224E9B40B0019C77A /* ProductSizes */,
 				692DAAB6246836F5009CA223 /* ProductReviewsCell */,
 				69DC16AF2466007200B7560B /* ProductImageCell */,
 				69DC16AB2465FBAB00B7560B /* productDetielsVC.swift */,
@@ -880,6 +896,8 @@
 			children = (
 				07C8CB1B8CD50C32ED9A20BC /* Pods-Gym.debug.xcconfig */,
 				5BA37B057002BA6CF991ED94 /* Pods-Gym.release.xcconfig */,
+				70D41B0593F444313F54CAF0 /* Pods-Dabberha.debug.xcconfig */,
+				858A20C413581884E144E272 /* Pods-Dabberha.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -965,6 +983,7 @@
 				6917484D246B087000CDB7FF /* blogsCell.xib in Resources */,
 				69174829246B081E00CDB7FF /* allCategoryVC.xib in Resources */,
 				69174853246B087F00CDB7FF /* sliderCell.xib in Resources */,
+				69165D7624E9B4340019C77A /* productSizesCell.xib in Resources */,
 				69174850246B087600CDB7FF /* productsCell.xib in Resources */,
 				6917483B246B084700CDB7FF /* cartCell.xib in Resources */,
 				6917481A246B07C500CDB7FF /* userOrderProductCell.xib in Resources */,
@@ -1001,7 +1020,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Gym-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Dabberha-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1014,15 +1033,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Gym/Pods-Gym-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dabberha/Pods-Dabberha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Gym/Pods-Gym-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dabberha/Pods-Dabberha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gym/Pods-Gym-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dabberha/Pods-Dabberha-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1040,6 +1059,7 @@
 				69356B0D2472E8CA005DFB94 /* bannerCell.swift in Sources */,
 				69F2D62F246762D900CE9EBE /* cart.swift in Sources */,
 				692DAABC2468465D009CA223 /* aboutUs.swift in Sources */,
+				69165D7524E9B4340019C77A /* productSizesCell.swift in Sources */,
 				69356B042472D9F2005DFB94 /* dealsOfDayCell.swift in Sources */,
 				699AC12B24631FD4005049C5 /* signUpVC.swift in Sources */,
 				69F2D62624675A4500CE9EBE /* blogsDetialsVC.swift in Sources */,
@@ -1475,7 +1495,7 @@
 		};
 		699AC11224630A35005049C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07C8CB1B8CD50C32ED9A20BC /* Pods-Gym.debug.xcconfig */;
+			baseConfigurationReference = 70D41B0593F444313F54CAF0 /* Pods-Dabberha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1485,7 +1505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FaridEbakers.Gym;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Faridooo.Gym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1494,7 +1514,7 @@
 		};
 		699AC11324630A35005049C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BA37B057002BA6CF991ED94 /* Pods-Gym.release.xcconfig */;
+			baseConfigurationReference = 858A20C413581884E144E272 /* Pods-Dabberha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1504,7 +1524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FaridEbakers.Gym;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Faridooo.Gym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

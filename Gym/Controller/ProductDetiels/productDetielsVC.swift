@@ -31,11 +31,13 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
     @IBOutlet weak var tabelViewHight: NSLayoutConstraint!
     @IBOutlet weak var moreDesHight: UILabel!
     @IBOutlet weak var moreDescHight2: NSLayoutConstraint!
+    @IBOutlet weak var sizeCollection: UICollectionView!
     
     
     var SingleproductData: productData?
     var slider = [String]()
     var reviews = [Review]()
+    var sizes = [ProductSize]()
     var timer : Timer?
     var currentIndex = 0
     var numberOflines = 0
@@ -55,10 +57,19 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
         reviewTabelView.delegate = self
         reviewTabelView.dataSource = self
         
+        
+        
         reviewTabelView.rowHeight = UITableView.automaticDimension
         reviewTabelView.estimatedRowHeight = UITableView.automaticDimension
         
         self.reviewTabelView.register(UINib.init(nibName: "reviewsCell", bundle: nil), forCellReuseIdentifier: "cell")
+        
+        
+        
+        sizeCollection.delegate = self
+        sizeCollection.dataSource = self
+        
+        self.sizeCollection.register(UINib.init(nibName: "productSizesCell", bundle: nil), forCellWithReuseIdentifier:"cell")
         
         startTimer()
         //customFaveBtn()
@@ -80,6 +91,7 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
     
     func setUpView() {
         slider = SingleproductData?.images ?? []
+        sizes = SingleproductData?.sizes ?? []
         self.bageControl.numberOfPages = self.slider.count
         self.bageControl.currentPage = 0
         self.productImagesCollectionView.reloadData()
@@ -95,7 +107,7 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
         self.tabelViewHight.constant = (CGFloat(numberOflines) * (22.5))
         moreDesc.isHidden = false
         let Totalprice = NSLocalizedString("Total price", comment: "")
-        price.text = "\(Totalprice) \(SingleproductData?.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
+        price.text = "\(Totalprice) \(SingleproductData?.sizes?.first?.price ?? "") \(helperLogin.getLangData().mainCurancys ?? "")"
         if SingleproductData?.discount == 0{
             discount.isHidden = true
             discoView.isHidden = true
@@ -158,7 +170,7 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
     
     @IBAction func minQtyAction(_ sender: Any) {
         qty = qty - 1
-        let priceInt = Int(SingleproductData?.price ?? "") ?? 0
+        let priceInt = Int(SingleproductData?.sizes?.first?.price ?? "") ?? 0
         let Totalprice = NSLocalizedString("Total price", comment: "")
         self.price.text = "\(Totalprice) \(priceInt * self.qty) \(helperLogin.getLangData().mainCurancys ?? "")"
         self.discount.text = "\((SingleproductData?.discount ?? 0) * qty) \(helperLogin.getLangData().mainCurancys ?? "")"
@@ -172,7 +184,7 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
     
     @IBAction func pluseQtyAction(_ sender: Any) {
         qty = qty + 1
-        let priceInt = Int(SingleproductData?.price ?? "") ?? 0
+        let priceInt = Int(SingleproductData?.sizes?.first?.price ?? "") ?? 0
         let Totalprice = NSLocalizedString("Total price", comment: "")
         self.price.text = "\(Totalprice) \(priceInt * self.qty) \(helperLogin.getLangData().mainCurancys ?? "")"
         self.discount.text = "\((SingleproductData?.discount ?? 0) * qty) \(helperLogin.getLangData().mainCurancys ?? "")"
@@ -245,7 +257,7 @@ class productDetielsVC: UIViewController, NVActivityIndicatorViewable{
     @IBAction func addCartBTNAction(_ sender: Any) {
         let Loading = NSLocalizedString("Loading...", comment: "")
         startAnimating(CGSize(width: 45, height: 45), message: Loading,type: .ballSpinFadeLoader, color: .black, textColor: .white)
-        cartApi.addCarts(productId: "\(SingleproductData?.id ?? 0)", quantity: "\(qty)"){ (error, success, message) in
+        cartApi.addCarts(productId: "\(SingleproductData?.sizes?.first?.id ?? 0)", quantity: "\(qty)"){ (error, success, message) in
             if success {
                 self.stopAnimating()
                 let Addcart = NSLocalizedString("Add cart", comment: "")
@@ -272,22 +284,37 @@ extension productDetielsVC: UICollectionViewDelegate,UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return slider.count
+        if collectionView == productImagesCollectionView{
+             return slider.count
+        }else {
+            return sizes.count
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if let cell = productImagesCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productImageCell {
-            cell.configureCell(images: slider[indexPath.row])
-            return cell
+        if collectionView == productImagesCollectionView{
+            if let cell = productImagesCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productImageCell {
+                cell.configureCell(images: slider[indexPath.row])
+                return cell
+            }else {
+                return productImageCell()
+            }
         }else {
-            return productImageCell()
+            if let cell = sizeCollection.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? productSizesCell {
+                cell.configureCell(product: sizes[indexPath.row])
+                return cell
+            }else {
+                return productSizesCell()
+            }
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
-        
+        if collectionView == productImagesCollectionView{
         return CGSize(width: productImagesCollectionView.frame.size.width, height: productImagesCollectionView.frame.size.height)
-        
+        }else {
+            return CGSize(width: sizeCollection.frame.size.width/3, height: sizeCollection.frame.size.height - 12)
+        }
     }
     
 }
